@@ -1,0 +1,9 @@
+#folders
+build
+coverage
+node_modules
+
+#files
+*.md
+.tsbuildinfo
+.env

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@common/*": ["./src/common/*"],
+      "@main/*": ["./src/main/*"],
+      "@presentation/*": ["./src/presentation/*"],
+      "@test-common/*": ["./test/common/*"]
+    },
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "importsNotUsedAsValues": "remove",
+    "newLine": "lf",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "test"],
+  "exclude": ["coverage", "node_modules", "build"]
+}
